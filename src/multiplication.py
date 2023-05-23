@@ -4,5 +4,5 @@ def mul(a, b):
     return a * b
 
 def test_add():
-    assert add(1, 2) == 2
-    assert add(5, 5) == 25
+    assert mul(1, 2) == 2
+    assert mul(5, 5) == 25
